@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #333;
+    color:white;
+    height:80px;
+}
+.main-nav .logo ul li{
+    list-style-type: none;
+    margin: 30px;
+}
+.main-nav .content ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left:80px;
+    margin-top: 30px;
+    margin-right: 51px;
+}
+.main-nav .content ul  a{
+    text-decoration: none;
+    color: white;
+}
+.main-nav .logo ul  a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    text-align: center;
+    background-image: url("./Assets/edvin-johansson-rlwE8f8anOc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    color:white
+}
+.container .ejy{
+    font-size: 50px;
+}
+.container .dummy {
+    margin-top: 100px;
+    font-size:xx-large;
+}
+.container .btn{
+    margin-top: 50px;
+}
+.container .btn-p{
+    color:white;
+    height:40px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: #333;
+}
+.container .btn-p:hover{
+    background-color: rgb(248, 98, 98);
+}
+.container .ejy .fh{
+    color: rgb(248, 98, 98);
+    font-size: 100px;
+}
+.main-aside{
+    display: flex;
+    background-color: #333;
+    color:white;
+    text-align: center;
+}
+.main-aside .right{
+    margin-top:150px;
+    margin-left: 10px; 
+}
+.main-aside .right .ejy .fh{
+    color: rgb(248, 98, 98);
+    font-size: 50px;
+}
+.main-aside .right .para1{
+    margin-top: 30px;
+}
+.main-aside .right .read-more{
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.main-aside .right .read-more:hover{
+    background-color: rgb(248, 98, 98);
+    border: none;
+    border-radius: 5px;
+}
+.main-article{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-evenly;
+    background-color: rgb(248, 98, 98);
+    height:100px;
+    margin-top: 0px;
+    text-align: center;
+}
+.main-article .great-loc .free-Meals .fitness{
+    width: 30px;
+}
+
+.main-article .great-loc .loc .food1 .heart1{
+    position: relative;
+    left:10px;
+    
+}
+.main-article .free-Meals{
+    background-color: aliceblue;
+}
+.footer1{
+    height: 60px;
+    text-align: center;
+    padding-top: 17px;
+    background-color: aqua;
+   
+}
+#hotel-neos .fh{
+    color: rgb(248, 98, 98);
+}
+.btn-p{
+    background-color:#333;
+    height:40px;
+    width: 200px;
+    color:white;
+    border-radius: 5px;
+
+}
+.btn-p:hover{
+    background-color: rgb(248, 98, 98);
+}

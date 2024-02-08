@@ -1,0 +1,155 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+ /* Main Styles - Common Styles*/
+ 
+ html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ a {
+    color: #333;
+    text-decoration: none;
+ }
+
+ h1, h2, h3 {
+    padding-bottom: 20px;
+ }
+
+ p {
+    margin: 10px 0;
+ }
+
+ /* NavBar */
+
+ #navbar {
+    background: #333;
+    color: white;
+    overflow: auto;
+ }
+
+ #navbar a {
+    color: white;
+ }
+
+ #navbar h1 {
+    float: left;
+    padding-top: 20px;
+ }
+
+ #navbar ul {
+    list-style: none;
+    float: right;
+ }
+
+ #navbar ul li {
+    float: left;
+ }
+
+ #navbar ul li a {
+    display: block;
+    padding: 25px;
+    text-align: center;
+ }
+
+ #navbar ul li a:hover, #navbar ul li a.active {
+    background: #444;
+    color: rgb(248, 98, 98);
+ }
+
+ .container {
+    margin: auto;
+    max-width: 11000px;
+    overflow: auto;
+    padding: 0 20px;
+ }
+
+ /* Show case */
+
+ #showcase {
+    background: url('../img/hotel-1.jpg') no-repeat center center/cover;
+    height: 600px;
+ }
+
+ #showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+ }
+
+ #showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 40px;
+ }
+
+ .text-primary {
+    color: rgb(248, 98, 98);
+ }
+
+ .lead {
+    font-size: 20px;
+ }
+
+ #showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.5em;
+ }
+
+ .btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+
+ .btn:hover {
+    background-color: lightcoral;
+    color: #333;
+ }
+
+ /* Home Info */
+
+ #home-info {
+    height: 400px;
+ }
+
+ #home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/persion-1.avif') no-repeat  center;
+    min-height: 100%;
+ }
+
+ #home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+ }
+
+ .bg-dark {
+    background: #333;
+    color: white;
+ }
+
+ .bg-light {
+    background: #333;
+    color: white;
+ }
+
+ #home-info .info-content p {
+    padding-top: 60px;
+ }
+
+
+
+ 
